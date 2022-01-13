@@ -1,0 +1,35 @@
+/* heading */
+header {
+    text-align: center;
+}
+header h1 {
+    font-size: 300%;
+}
+
+/* category buttons */
+
+ul {
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 100px;
+    padding-left: 0;
+    list-style: none;
+}
+li {
+    display: inline;
+    padding: 5px;
+}
+
+.joke-zone {
+    display: flex;
+    height: 150px;
+    width: 700px;
+    margin: auto;
+    padding: 30px;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.next-prev li {
+    padding: 20px;
+}
