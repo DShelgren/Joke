@@ -1,35 +1,55 @@
 /* heading */
 header {
-    text-align: center;
+  text-align: center;
 }
 header h1 {
-    font-size: 300%;
+  font-size: 300%;
 }
 
 /* category buttons */
-
-ul {
-    text-align: center;
-    margin-left: 0;
-    margin-bottom: 100px;
-    padding-left: 0;
-    list-style: none;
+.nav-btns {
+  border: 3px solid red;
 }
-li {
-    display: inline;
-    padding: 5px;
+.category-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  justify-content: center;
+}
+.category-list li {
+  padding: 0.5em;
 }
 
+/* main joke area */
+.main-area {
+  display: flex;
+  border: 3px solid blue;
+  justify-content: center;
+}
 .joke-zone {
-    display: flex;
-    height: 150px;
-    width: 700px;
-    margin: auto;
-    padding: 30px;
-    background-color: whitesmoke;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+  height: auto;
+  width: 700px;
+  margin: 0;
+  padding: 10px;
+  background-color: whitesmoke;
 }
 
+/* footer navigation */
+.footer-nav {
+  border: 3px solid green;
+}
+.next-prev {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
 .next-prev li {
-    padding: 20px;
+  padding: 1em;
 }
