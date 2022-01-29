@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Joke Generator</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Joke Generator</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam repellendus, soluta asperiores natus nulla est
-            similique quasi necessitatibus eos cupiditate a. Eum expedita saepe quam pariatur vel nisi ipsum mollitia.
-        </p>
+      <h1>Joke Generator</h1>
+      <p>
+        Welcome to the wonderful world that is this Joke Generator. The one stop
+        shop for all types of jokes you could ever want.
+        <span>And some you don't...</span>
+      </p>
     </header>
-    <div class='nav-btns'>
-        <ul id='navBar' class='category-list'>
-            <!-- <li class="category">
+    <div class="nav-btns">
+      <ul id="navBar" class="category-list">
+        <!-- <li class="category">
                 <button class="category-button">CATEGORY 1</button>
             </li> -->
-        </ul>
+      </ul>
     </div>
-    <div class='main-area'>
-        <div class="joke-zone">
-            <div class='joke-text-area'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, inventore? Nesciunt natus
-                    voluptate aut,
-                    alias, beatae, iure libero quia quis voluptatibus quas amet ad. Veniam vero modi aspernatur labore
-                    alias.
-                </p>
-            </div>
+    <div class="main-area">
+      <h2 id="category-title">Random Joke</h3>
+      <div class="joke-zone">
+        <div class="joke-text-area">
+          <p id="jokeText"></p>
         </div>
+      </div>
     </div>
-
 
     <div class="footer-nav">
-        <ul class='next-prev'>
-            <li><button>PREV</button></li>
-            <li><button>NEXT</button></li>
-        </ul>
+      <ul class="next-prev">
+        <li><button id="prev-btn">PREV</button></li>
+        <li><button id="next-btn">NEXT</button></li>
+      </ul>
     </div>
-    <script src='script.js'></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
