@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+/* B3CDD1 6D6A5F 2B5778 */
 
 body {
   font-family: "Mochiy Pop P One", sans-serif;
-  background-color: #c8ead3;
+  background-color: #6d6a5f;
 }
 /* heading */
 header {
@@ -11,7 +12,13 @@ header {
 }
 header h1 {
   font-size: 300%;
-  color: #fc7a57;
+  color: #f99b77;
+}
+header p {
+  color: #f99b77;
+}
+span {
+  color: #fbb89d;
 }
 
 /* category list layout */
@@ -31,6 +38,7 @@ header h1 {
   justify-content: center;
   align-items: center;
 }
+
 .joke-zone {
   display: flex;
   flex-direction: column;
@@ -41,9 +49,13 @@ header h1 {
   padding: 10px 50px;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  color: #5e5b52;
-  background-color: #f2d6ba;
+  color: #110d0e;
+  background-color: #edebe9;
   line-height: 2em;
+  border: 1px solid black;
+}
+#category-title {
+  color: #f99b77;
 }
 
 /* footer navigation */
@@ -61,24 +73,22 @@ header h1 {
 button {
   height: 30px;
   width: auto;
-  background-color: #c8ead3;
+  background-color: #fbb89d;
   font-size: larger;
-  border-color: #df9a57;
+  border-color: #6d6a5f;
   border-top: 0;
   border-bottom: 0;
   border-right: 0;
   margin-bottom: 10px;
+  color: #6d6a5f;
 }
 button:hover {
-  background-color: #fc7a57;
+  background-color: #f99b77;
   font-weight: bolder;
 }
 .footer-nav button {
-  border: solid 1px #df9a57;
+  border: solid 1px #110d0e;
 }
 .category {
   margin: 0px;
-}
-span {
-  color: #df9a57;
 }
