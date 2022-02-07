@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
-/* B3CDD1 6D6A5F 2B5778 */
 
 body {
   font-family: "Mochiy Pop P One", sans-serif;
@@ -84,7 +83,6 @@ button {
 }
 button:hover {
   background-color: #f99b77;
-  font-weight: bolder;
 }
 .footer-nav button {
   border: solid 1px #110d0e;
